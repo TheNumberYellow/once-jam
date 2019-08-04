@@ -1,0 +1,9 @@
+#include "SFML/Window.hpp"
+#include "SFML/Graphics.hpp"
+
+#include "Game.h"
+
+int main() {
+	Game game;
+	return game.run();
+}
